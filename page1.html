@@ -11,3 +11,25 @@
 			<ul>
 				<li><a href="index.html">Home</a></li>
 			
+<li><a href="about.html">About</a></li> <li><a hrefcontact.html">Contact</a></li><li><a href="register.html">Register</a></li> </ul> </nav> </header> <main> <h1>About Us</h1> <p>We are a company dedicated to providing high-quality products and services to our customers. Our team is made up of experienced professionals who are passionate about what they do.</p> </main> </body> </html> ``` contact.html: ```html <!DOCTYPE html> <html> <head> <title>Contact Us</title> <link rel="stylesheet" type="text/css" href="styles.css"> <script src="script.js"></script> </head> <body> <header> <nav> <ul> <li><a href="index.html">Home</a></li> <li><a href="about.html">About</a></li> <li><a href="contact.html">Contact</a></li> <li><a href="register.html">Register</a></li> </ul> </nav> </header> <main> <h1>Contact Us</h1> <p>If you have any questions or concerns, please don't hesitate to contact us.</p> <form> <label for="name">Name:</label><br> <input type="text" id="name" name="name"><br> <label for="email">Email:</label><br> <input type="email" id="email" name="email"><br> <label for="message">Message:</label><br> <textarea id="message" name="message"></textarea><br> <input type="submit" value="Submit"> </form> </main> </body> </html> ``` register.html: ```html <!DOCTYPE html> <html> <head> <title>Registration</title> <link rel="stylesheet" type="text/css" href="styles.css"> <script src="script.js"></script> </head> <body> <header> <nav> <ul> <li><a href="index.html">Home</a></li> <li><a href="about.html">About</a></li> <li><a href="contact.html">Contact</a></li> </ul> </nav> </header> <main> <h1>Register</h1> <form> <label for="username">Username:</label><br> <input type="text" id="username" name="username"><br> <label for="email">Email:</label><br> <input type="email" id="email" name="email"><br> <label for="password">Password:</label><br> <input type="password" id="password" name="password"><br> <label for="confirm-password">Confirm Password:</label><br> <input type="password" id="confirm-password" name="confirm-password"><br> <input type="submit" value="Register"> </form> </main> </body> </html> ``` styles.css: ```css body { font-family: Arial, sans-serif; }
+header { position: fixed; top: 0; left: 0; width: 100%; background-color: #333; color: #fff; padding: 10px 0; box-sizing: border-box; }
+
+nav ul { list-style-type: none; margin: 0; padding: 0; }
+
+nav ul li { display: inline-block; margin-right: 20px; }
+
+nav ul li a { color: #fff; text-decoration: none; }
+
+main { padding: 80px 0; text-align: center; }
+
+form { margin-top: 30px; }
+
+label { display: block; margin-bottom: 10px; }
+
+input[type="text"], input[type="email"], input[type="password"] { width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; }
+
+textarea { width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; }
+
+input[type="submit"] { background-color: #4CAF50; color: white; padding: 14px 20px; margin: 8px 0; border: none; border-radius: 5px; cursor: pointer; }
+
+input[type="submit"]:hover { background-color: #45a049; }
